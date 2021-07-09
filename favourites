@@ -1,0 +1,84 @@
+<html>
+<head>
+<style>
+body {
+margin: 0;
+}
+ul.body {
+margin: 0;
+padding: 0;
+width: 25%;
+background-color: #f1f1f1;
+position: fixed;
+height: 100%;
+overflow: auto;
+}
+
+
+li a {
+display: block;
+color: #000;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+li a.active {
+background-color: Blue;
+color: white;
+}
+
+li a:hover:not(.active) {
+background-color: #555;
+color: white;
+}
+
+</style>
+</head>
+<body>
+
+<ul class ="body">
+
+<li><a href="home.html">Home</a></li>
+<li><a href="timetable.html">Page1</a></li>
+<li><a class="active" href="favourites.html">Page2</a></li>
+<li><a href="map.html">Page3</a></li>
+<li><a href="feedback.html">Page4</a></li>
+<li><a href="citations.html">Citation Page</a></li>
+
+</ul>
+
+<div style="margin-left:25%;padding:1px 16px;height:500px;">
+<h2> My Favourite Rappers</h2>
+<img src ="baby.jpg" border="5px" alt = "baby" title="rapper" height ="150Px" width = "100px" style ="float:right;">
+<dl >
+<dt>Lil Baby</dt>
+    <dd>A rapper from Atlanta.</dd>
+    <dt>Drake</dt>
+    <dd>A rapper from Toronto.</dd>
+	<dt>Polo G</dt>
+    <dd>A rapper from Chicago.</dd>
+</dl>
+</br>
+</br>
+<h2> My Favourite Food </h2>
+<img src ="food.jpg" border="5px" alt = "food" title="food" height ="150Px" width = "100px" style ="float:right;">
+<ul  >
+<li>Popeyes Chicken Sandwhich</li>
+<li>BBQ Ribs</li>
+<li>Steak</li>
+</ul>
+</br>
+</br>
+
+<h2> My Favourite Teams</h2>
+<img src ="team.jpg" border="5px" alt = "team" title="team" height ="150Px" width = "100px" style ="float:right;">
+<ol >
+<li>Manchester United</li>
+<li>Boston Celtics</li>
+<li>Carolina Panthers</li>
+</ol>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<html>
+
+<head>
+
+<style>
+
+body {
+
+margin: 0;
+
+}
+
+ul {
+
+list-style-type: none;
+
+margin: 0;
+
+padding: 0;
+
+width: 25%;
+
+background-color: #f1f1f1;
+
+position: fixed;
+
+height: 100%;
+
+overflow: auto;
+
+}
+
+li a {
+
+display: block;
+
+color: #000;
+
+padding: 8px 16px;
+
+text-decoration: none;
+
+}
+
+li a.active {
+
+background-color: blue;
+
+color: white;
+
+}
+
+li a:hover:not(.active) {
+
+background-color: #555;
+
+color: white;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<ul>
+
+<li><a href="home.html">Home</a></li>
+<li><a href="timetable.html">Page1</a></li>
+<li><a href="favourites.html">Page2</a></li>
+<li><a href="map.html">Page3</a></li>
+<li><a class="active" href="feedback.html">Page4</a></li>
+<li><a href="citations.html">Citation Page</a></li>
+
+</ul>
+
+<div style="margin-left:25%;padding:1px 16px;height:500px;">
+
+<h3>FeedBack Form</h3>
+
+<form method="post">
+
+
+<img src ="feedback.jpg" border="1px" alt = "feedback" title="feedbackImage" height ="150Px" width = "150px" style ="float:Left;">
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<label for="name">Name</label>
+</br>
+
+<input type="text" id="name" name="name" placeholder="First and Last name">
+
+</br>
+
+<label for="subject">Provide Feedback Below</label>
+
+</br>
+
+<textarea id="subject" name="subject" placeholder="Provide Feedback..." style="height:200px"></textarea>
+</br>
+<input type="submit" value="Submit">
+
+<p>
+
+Can be contacted at:
+
+<a href="mailto:belfordk@uwindsor.ca" >belfordk@uwindsor.ca</a>
+
+</p>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
